@@ -1,4 +1,4 @@
-#venkatdevtest/nhttpd:v1
+#venkatdevtest/nhttpd:v2
 FROM centos
 RUN yum install httpd -y
 RUN echo hello v2 >/var/www/html/index.html
