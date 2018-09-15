@@ -1,3 +1,4 @@
+#venkatdevtest/java:v1
 FROM openjdk:8-jdk-alpine
 COPY target/gs-spring-boot-docker-0.1.0.jar my-app.jar
 WORKDIR /
